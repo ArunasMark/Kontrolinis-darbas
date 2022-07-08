@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+  text-align: center;
+  padding: 10px;
+}
+img {
+  width: 100%;
+  height: 35%;
+}
+figure {
+  margin: 15px;
+  width: 100%;
+}
+.card1 > .dot {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid rgb(104, 182, 228);
+  display: block;
+  position: relative;
+  top: 22px;
+  left: -17px;
+  font-size: 20px;
+}
+.card1 > img {
+  background-color: rgb(104, 182, 228);
+}
+.card2 > img {
+  background-color: rgb(22, 14, 131);
+}
+.card2 > .dot {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid rgb(22, 14, 131);
+  display: block;
+  position: relative;
+  top: 22px;
+  left: -10px;
+  font-size: 20px;
+}
+.card3 > img {
+  background-color: rgb(228, 104, 191);
+}
+.card3 > .dot {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid rgb(228, 104, 191);
+  display: block;
+  position: relative;
+  top: 22px;
+  right: 12px;
+  font-size: 20px;
+}
+.card4 > img {
+  background-color: rgb(124, 133, 138);
+}
+.card4 > .dot {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid rgb(124, 133, 138);
+  display: block;
+  position: relative;
+  right: 12px;
+  top: 22px;
+  font-size: 20px;
+}
+
+h1 {
+  color: rgb(243, 8, 8);
+}
